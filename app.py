@@ -6,6 +6,7 @@ from pandas_profiling import ProfileReport
 import pandas as pd
 from streamlit_pandas_profiling import st_profile_report
 import os 
+import plotly.express as px
 
 with st.sidebar:
     st.title('Auto streamML')
