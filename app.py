@@ -8,6 +8,9 @@ from streamlit_pandas_profiling import st_profile_report
 import os 
 import plotly.express as px
 
+px.defaults.template='plotly-dark'
+px.defaults.color_continuous_scale='reds'
+
 with st.sidebar:
     st.title('Auto streamML')
     pilihan = st.radio('Navigasi', ['Upload', 'Profiling', 'ML', 'Download'])
